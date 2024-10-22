@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Mi primera página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+        }
+
+        header div {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 20%;
+        }
+
+        header h1 {
+            margin-left: 20px;
+            font-size: 2rem;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+
+        .content {
+            display: flex;
+            margin: 0 20px;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: rgb(153, 55, 177);
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        .main-content {
+            width: 75%;
+            margin-left: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .nombre {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div> 
+            <img src="utpl_logo_taller.png" alt="">
+            <div>
+                <h1>Header de la página</h1>
+            </div>
+        </div>
+    </header>
+
+    <hr/>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Menú izquierdo</h2>
+            <ul>
+                <li>Opción 1</li>
+                <li>Opción 2</li>
+                <li>Opción 3</li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>Área de Trabajo</h2>
+        </div>
+    </div>
+
+    <hr/>
+
+    <footer>
+        Este es el pie de página
+        <div class="nombre">
+            Nombre: Cristian Alejandro Espinosa Gonza
+        </div>
+    </footer>
+    
+</body>
+</html>
